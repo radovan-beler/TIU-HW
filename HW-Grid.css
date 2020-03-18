@@ -109,7 +109,7 @@ nav div p {
     background-color: violet;
 }
 
-#history {
+#symptoms {
     grid-column: 5 / 8;
     grid-row: 2 / 4;
     background-color: #4682B4;
@@ -182,8 +182,29 @@ nav div p {
 
 h3 {
     margin-top: 10px;
+    margin-bottom: 0;
     text-align: center;
     color: white;
     font-size: 30px;
     font-family: "Muli" , sans-serif;
+}
+
+p {
+    margin: 10px 10px 0 10px;
+    font-size: 20px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 10px 0 0 10px
+}
+
+li {
+    font-size: 20px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-top: 5px;
 }
