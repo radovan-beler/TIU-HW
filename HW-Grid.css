@@ -100,6 +100,7 @@ nav div p {
     grid-row: 2 / 4;
     background-color: #29648A;
     border-radius: 5px;
+    position: relative;
 }
 
 .img_1 {
@@ -119,6 +120,7 @@ nav div p {
     grid-row: 2 / 4;
     background-color: #29648A;
     border-radius: 5px;
+    position: relative;
 }
 
 #spread {
@@ -126,6 +128,7 @@ nav div p {
     grid-row: 4 / 6;
     background-color: #29648A;
     border-radius: 5px;
+    position: relative;
 }
 
 #prevention {
@@ -133,6 +136,7 @@ nav div p {
     grid-row: 4 / 7;
     background-color: #29648A;
     border-radius: 5px;
+    position: relative;
 }
 
 .img_3 {
@@ -176,11 +180,18 @@ nav div p {
     grid-row: 5 / 8;
     background-color: #29648A;
     border-radius: 5px;
+    position: relative;
 }
 
 .small_img {
     width: 200px;
     height: 200px;
+    border-radius: 5px;
+}
+
+.large_img {
+    width: 407px;
+    height: 407px;
     border-radius: 5px;
 }
 
@@ -217,6 +228,27 @@ li {
 .link {
     color: white;
     font-size: 20px;
-    margin-left: 10px;
-    
+    margin-left: 10px;    
+}
+
+.linkwrap {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.websitelink {
+    margin-left: 15px;
+    color: white;
+
+}
+
+i {
+    color: white;
+    margin-left: 2px;
+}
+
+.weblinkwrap {
+ position: absolute;
+ margin-bottom: 15px;
+ bottom: 0;
 }
