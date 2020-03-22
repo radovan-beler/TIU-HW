@@ -4,8 +4,7 @@ html {
 
 body{
     width: 1600px;
-    margin-top: 5px;
-    margin-bottom: 0;
+    margin: 5px auto;
     background-color: #25274D;
 }
 
@@ -254,7 +253,7 @@ li {
     position: fixed;
     bottom: 10px;
     float: right;
-    right: 50px;
+    right: 30px;
     left: auto;
     max-width: 40px;
     width: 40px;
